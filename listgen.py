@@ -7,11 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 LLCS = [line.split(',') for line in open("llclist.txt")]
 
 
-n = input("what State?")
-if n == "nc":
-    url = "http://opencorporates.com/companies/us_nc"
-elif n == "":
-    url ="https://opencorporates.com/companies/"
+url = "http://opencorporates.com/companies/us_nc"
 
 
     
